@@ -13,7 +13,7 @@ export default class Login extends React.Component {
 
     render() {
         let getData = ""
-        if (this.state.user != "") {
+        if (this.state.user !== "") {
             getData = <h1>Hi {this.state.user}, Welcome Back!</h1>
         } else {
             getData = <div> <h1>{this.props.title}</h1>
@@ -28,7 +28,7 @@ export default class Login extends React.Component {
                 </form>
             </div>
         }
-        console.log("Datanya = " + getData)
+
         return (
             <div>
                 {getData}
