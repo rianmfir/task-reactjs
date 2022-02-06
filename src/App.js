@@ -1,9 +1,9 @@
-import Component from './component'
+import FormRegist from './FormRegister';
 
 function App() {
   return (
     <div>
-      <Component />
+      <FormRegist />
     </div>
   );
 }
